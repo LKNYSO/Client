@@ -1,0 +1,124 @@
+body{
+    background-image: url(PrjctPrgmer.jpg);
+    background-size: cover;
+    background-position: top;
+    
+}
+nav{
+    z-index: 1;
+}#nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    width: 99vw;
+    color: white;
+    font-size: 20px;    
+    padding: 5px 0;
+}#nav li{
+    display: inline;
+    padding-left: 16px;
+}
+li{
+    list-style-type: none;
+}
+.lblDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 15px 0;
+}
+#mainHdr{
+    text-align: center;
+   /*  background-color: rgb(233, 232, 232); */
+    font-size: 550%;
+    /* font-weight: bolder; */
+    width: 98vw;
+    border-radius: 0;
+}
+#mainAside{
+    /*positioning mainAside*/
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    /* background-color: rgb(233, 232, 232);
+    font-weight: bolder; */
+    font-size: 190%;
+    height: 404px;
+    /*to alighn labels to center*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    /*attempt to remove background
+     using 'background: none;' - SUCCESS*/
+    background: none;
+}#lblName{
+    width: 190px;
+}#lblSDv{
+    width: 366px;
+}
+.mainTheme{
+    background-color: rgb(233, 232, 232);
+    font-weight: bolder;
+    border-radius: 30px;
+}
+fieldset{
+    background-color: black;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    height: 404px;
+    /*to alighn labels to center*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}fieldset div{
+    margin: 50px 0;
+    border-style: solid;
+    border-color: whitesmoke ;
+}#fsMssn{
+    margin: 0 130px;
+}#lgMssn{
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    font-size: 240%;
+}/* #opTdpole, #opIrnmn{
+    border: 15px;
+    border-color: whitesmoke ;
+} */
+.mainFlx{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 30px;
+    /*positioning mainAside*/
+    position: relative;
+
+    margin-left: 20px;
+
+    z-index: 0;
+}.hLbl{
+    font-size: 160%;
+}.subjLbl{
+    /*default 'display: block'
+     is blocking 'justify-content */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    word-wrap: break-word;
+}
+#mssnDiv{
+    margin-top: 100px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}a:hover{
+    /*opacity-> see-through, transparent effect*/
+    opacity: 0.7;
+    /*transform: scale(0.98)->
+    changes size of element */
+    transform: scale(0.98);
+}
